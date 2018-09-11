@@ -26,13 +26,14 @@ In addition, it also needs to include bitwise math of:
 
 ### math.h
 
-In the 'math.h' file, a function is initialize 'int math()' with three arguments of 'int num1', 'int num2', and 'char Operator' for the mathematical operation.
+In the "math.h" file, a function is initialize "int math()" with three arguments of "int num1", "int num2", and "char Operator" for the mathematical operation.
 
     'int math(int num1, int num2, char Operator)'
 
 ### math.c
 
-In the 'math.c' file, the 'math ()' function is condition with switch statements for the different mathematical operations. Users will connect their two values to 'num1' and 'num2' and their operation to 'Operator'. Depending on which operation, the switch statement will check and run the case of the math operation and return the computed value. 
-For instance, if 'num1 = 3', 'num2 = 5', and 'Operator == "+"',than the swtich will check for operator "+", computes and return the value of '8'. 
+In the "math.c" file, the "math ()" function is condition with switch statements for the different mathematical operations. Users will connect their two values to "num1" and "num2" and their operation to "Operator". Depending on which operation, the switch statement will check and run the case of the math operation and return the computed value. 
 
-The switch statement default is set to 'return 0' for all other unlisted inputs for 'Operator'.
+For instance, if "num1 = 3", "num2 = 5", and "Operator == +",than the swtich will check for operator "+", computes and return the value of "8". 
+
+The switch statement default is set to "return 0" for all other unlisted inputs for "Operator".
